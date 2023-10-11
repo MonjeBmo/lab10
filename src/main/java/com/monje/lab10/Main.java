@@ -34,7 +34,7 @@ public class Main extends javax.swing.JFrame {
         GroupGenre.clearSelection();
     }
 
-    void generateCSVBTN() {
+    void btnGenerateCSV() {
         User user = new User();
         if (txtName.getText().isEmpty() || txtLastname.getText().isEmpty() || jTextArea1.getText().isEmpty() || ((int) spnAge.getValue() <= 0)) {
             JOptionPane.showMessageDialog(null, "Debe llenar todos los campos");
@@ -258,7 +258,7 @@ public class Main extends javax.swing.JFrame {
     }//GEN-LAST:event_txtNameActionPerformed
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
-        generateCSVBTN();
+        btnGenerateCSV();
     }//GEN-LAST:event_btnSaveActionPerformed
 
     /**

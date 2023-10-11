@@ -4,7 +4,6 @@ import com.monje.lab10.user.User;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 
 public class controller {
 
