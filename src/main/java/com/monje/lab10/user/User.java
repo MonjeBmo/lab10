@@ -7,6 +7,8 @@ public class User {
     String direction;
     String gender;
 
+    String date;
+
     public String getName() {
         return name;
     }
@@ -45,5 +47,13 @@ public class User {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }

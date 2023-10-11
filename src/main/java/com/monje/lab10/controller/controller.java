@@ -17,7 +17,8 @@ public class controller {
             if (file.length() == 0) {
                 fileWriter.write("Nombre, Apellido, Edad, Direccion, Genero\n");
             }
-            fileWriter.write(user.getName() + "," + user.getLastName() + "," + user.getAge() + "," + user.getDirection() + "," + user.getGender() + "\n");
+            fileWriter.write(user.getName() + "," + user.getLastName() + "," + user.getAge()
+                    + "," + user.getDirection() + "," + user.getGender() + "," + user.getDate() + "\n");
 
             fileWriter.close();
         } catch (Exception e) {
